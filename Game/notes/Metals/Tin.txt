@@ -1,0 +1,27 @@
+Tin {
+    (50-Sn)
+    alloy with
+    platting steel
+    corrosion protection
+    magnetic alloys
+    Types of alloys {
+        bronze {
+            carbon - copper
+        }
+        pewter {
+            tin - antimony - copper - bismuth - (sometimes silver)
+        }
+        
+    }
+    Mirrors {
+        First, a small amount of silver nitrate is dissolved in distilled water
+        , with the addition of diluted ammonia until the mixture visibly changes. 
+        A different mixture of Rochelle salts and silver nitrate is boiled and filtered. 
+        The mixtures are then poured onto a properly heated piece of glass and ready to dry. 
+        To preserve the silver, a coat of paint is often added to the back of the glass.
+    }
+    chemical compounds {
+        
+    }
+    
+}

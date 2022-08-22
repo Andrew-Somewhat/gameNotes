@@ -1,0 +1,95 @@
+ore progression{
+    
+}
+Mohs scale {
+    tin 1.5
+    lead 1.5
+    gold 2.5 - 3.0
+    silver 2.5 - 3.0
+    copper 3.0
+    platinum 3.5
+    iron 4.0
+    quartz 6.0 - 7.0
+    corundum 9.0 
+    carbonado 10
+    diamond 10
+}
+tin (50-Sn) uses {
+    alloy with
+    platting steel
+    corrosion protection
+    magnetic alloys 
+}
+lead (82-Pb) uses {
+    car batteries
+    pigments for paint
+    radiation protection
+    ammunition
+    weights
+}
+gold (79-Au) uses {
+    electronics
+    alloy with
+    acid resistant
+    jewelry
+    alchemy
+}
+silver (47-Ag) uses {
+    jewelry
+    mirrors (the best reflector)
+    batteries
+    electronics
+    brazing alloy
+}
+copper (29-Cu) uses {
+    jewelry
+    electronics
+    alloy with
+    bronzing alloy
+}
+platinum (78-Pt) uses {
+    high corrosion resistants
+    electroconducts
+    computer hard disc
+    lcd
+    spark plugs
+    turbine blades
+}
+iron (26-Fe) uses {
+    alloy
+    piping
+    valve
+    pump
+}
+quartz (SiO2) uses {
+    Jewelry and gemstones
+    Glassmaking
+    Watches and clocks
+    Foundry materials (Metal Casting Industry)
+    Refractory industry
+    Abrasives
+    Petroleum industry
+    Kitchen Countertops
+    Sharpening tools
+    Crucibles
+    Electronics
+    Filler
+    Ceramic Industry
+    Tripoli
+    Synthetic crystals
+}
+corundum (Al2O3) {
+    sandpaper
+    grindstone
+}
+carbonado (C 12.01) {
+    drill tips
+    grinding wheels
+}
+diamond (C 12.01) {
+    jewelry
+    heat sink
+    audio equipment
+    engraivng
+    window
+}

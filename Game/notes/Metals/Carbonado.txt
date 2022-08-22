@@ -1,0 +1,8 @@
+carbonado (C 12.01) {
+    Drill tips {
+
+    }
+    Grinding wheels {
+
+    }
+}

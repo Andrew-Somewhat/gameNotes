@@ -1,0 +1,116 @@
+Nature of fire {
+Fires nature is that of a heavyly weakend star
+Fires base is Plasma
+Fire is a source of heat and can provide light
+Fire needs three condition to be meet in order to form 
+[Fire needs a source of heat - Fire needs a source of fual - Fire needs a source of oxygen] 
+magicules can be used as a substatute for eather one or all of these condition
+The colour of the flame is determinend by the chemicals within it  or if ones physical body is atunned with fire than te flames colour with mimic the aura of the user
+}
+Types of output {
+       Projectile based {
+        tier 1 {
+            Flame {
+                FormNum {5}
+                Cost {10 * sF}
+                Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
+                Effect {None}
+                Aoe {0.5}
+            }
+            Flamepike {
+                FormNum {3}
+                Cost {15 * sF}
+                Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
+                Effect {None}
+                Aoe {0.5}
+            }
+        }
+        tier 2 {
+            Fireball {
+                FormNum {10}
+                Cost {50 * sF}
+                Dmg {Char(mP) ^ 4 + Cost * Char(elPro) ^ 2}
+                Effect {Chance to set target on fire(fire cant spread from target)}(Effect chance 15%)DOT{}
+                Aoe {1.0}
+            }
+            Firebolt {
+                FormNum {11}
+                Cost {75 * sF}
+                Dmg{Char(mP) ^ 4 + Cost * Char(elPro) ^ 2}
+                Effect {Chance to set target on fire(fire cant spread from target)}(Effect chance 15%)DOT{}
+                Aoe {1.5}
+            }
+        }
+        tier 3 {
+            Fireburst {
+                FormNum {15}
+                Cost {150 * sF}
+                Dmg {Char(mP) ^ 3 + Cost * Char(elPro) ^ 2}
+                Effect {Chance to set target on fire(fire cant spread from target)}(Effect chance 15%)DOT{}
+                Aoe {2.0}
+            }
+            Fireorb {
+                FormNum {17}
+                Cost {200 * sF}
+                Dmg {Char(mP) ^ 3 + Cost * Char(elPro) ^ 2}
+                Effect {Chance to set target ablaze (blaze can spread from target)}(Effect chance 25%) DOT{}
+                Aoe {2.0}
+            }
+        }
+        tier 4 {
+            Flashfire {
+                FormNum {19}
+                Cost {500 * sF}
+                Dmg {Char(mP) ^ 3 + Cost * Char(elPro) ^ 2}
+                Effect {Chance to set target ablaze (blaze can spread from target)}(Effect chance 5%) DOT{}
+                Aoe {2.5}
+            }
+            Flamepillor {
+                FormNum {22}
+                Cost {750 *sF}
+                Dmg {Char(mP) ^ 3 + Cost * Char(elPro) ^ 2}
+                Effect {Chance to set target ablaze (blaze can spread from target)}(Effect chance 55%) DOT{}
+                Aoe {5.0}
+            }
+        tier 5 {
+            Flare {
+                FormNum {999}
+                Cost {9000 * sF}
+                Dmg {Char(mP) ^ 2 + Cost * Char(elPro) ^ 2}
+                Effect {Chance to afflict target with infernus (infernus will spread from target)}(Effect chance 100%) DOT{}
+                Aoe {YES}
+            }
+        }
+    }    
+   Contact based {
+        Flamecoat {
+            
+        }
+        Firecoat {
+
+        }
+        Flameenchant {
+
+        }
+        Fireenchant {
+
+        }
+        Flarecoat {
+
+        }
+        FlareBase {
+
+        }
+   }
+    Form based {
+        Flamebody {
+
+        }
+        Passiondrive {
+
+        }
+        Plasmabase {
+
+        }
+   }
+}

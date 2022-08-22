@@ -1,0 +1,18 @@
+Silver {
+    (47 - Ag)
+    Jewelry {
+        
+    }
+    Mirror (the best reflector) {
+
+    }
+    Batteries {
+
+    }
+    Electronics {
+
+    }
+    Alloy {
+
+    }
+}

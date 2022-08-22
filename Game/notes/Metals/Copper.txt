@@ -1,0 +1,11 @@
+copper (29 - Cu) {
+    Jewelry {
+
+    }
+    Electronics {
+
+    }
+    Alloys {
+
+    }
+}

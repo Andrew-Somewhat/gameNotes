@@ -1,0 +1,8 @@
+corundum (Al2O3) {
+    Sandpaper {
+
+    }
+    Grindstone {
+
+    }
+}

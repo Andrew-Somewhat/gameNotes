@@ -1,0 +1,18 @@
+gold {
+    (79 - Au)
+    Electronics {
+
+    }
+    Alloy {
+
+    }
+    Acid resistant {
+
+    }
+    Jewelry {
+
+    }
+    Alchemy {
+
+    }
+}

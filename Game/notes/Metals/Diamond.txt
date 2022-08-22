@@ -1,0 +1,17 @@
+diamond (C 12.01) {
+    Jewelry {
+
+    }
+    Heat sink {
+
+    }
+    Audio equipment {
+
+    }
+    Engraiving {
+
+    }
+    Window {
+
+    }
+}

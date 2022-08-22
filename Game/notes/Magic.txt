@@ -1,0 +1,59 @@
+Elemancy {
+    Fire {
+
+    }
+    Ice {
+
+    }
+    Lightning {
+
+    }
+    Wind {
+
+    }
+    Water {
+
+    }
+    Earth {
+
+    }
+    Nature {
+
+    }
+    Light {
+
+    }
+}
+
+Core Magic  {
+    Plasma {
+
+    }
+    Liqued {
+
+    }
+    Gas {
+
+    }
+    Solid {
+
+    }
+}
+
+Origin magic {
+    Time {
+
+    }
+    Nebulus {
+
+    }
+    Thermal {
+
+    }
+    Reality {
+
+    }
+    Elemental {
+        
+    }
+}

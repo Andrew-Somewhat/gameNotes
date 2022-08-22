@@ -1,0 +1,51 @@
+quartz (SiO2) uses {
+    Jewelry {
+
+    }
+    Gemstone {
+
+    }
+    Glassmaking {
+
+    }
+    Watch  {
+
+    }
+    Clock   {
+
+    }
+    Foundry materials (Metal Casting Industry)  {
+
+    }
+    Refractory industry {
+
+    }
+    Abrasives   {
+
+    }
+    Petroleum industry  {
+
+    }
+    Sharpening tool {
+
+    }
+    Crucible {
+
+    }
+    Electronic {
+
+    }
+    Filler {
+
+    }
+    Ceramic Industry {
+
+    }
+    Tripoli {
+
+    }
+    Synthetic crystal {
+
+    }
+
+}

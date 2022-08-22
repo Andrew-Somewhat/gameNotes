@@ -1,0 +1,18 @@
+Lead {
+    (82 - Pb)
+    Car batteries {
+
+    }
+    Paint pigment {
+
+    }
+    Radiation protection {
+
+    }
+    Ammuntiion {
+
+    }
+    Weights {
+
+    }
+}

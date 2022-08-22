@@ -1,0 +1,20 @@
+platinum (78-Pt) {
+    Corrosion resistants {
+
+    }
+    Electroconducts {
+
+    }
+    Computer hard discs {
+        
+    }
+    Lcd (Liqued Crystal Display) {
+
+    }
+    Spark plug {
+
+    }
+    Turbine blade {
+
+    }
+}
