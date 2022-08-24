@@ -17,8 +17,8 @@ Types of output {
                 Effect {None}
                 Aoe {0.5}
             }
-            Flamepike {
-                FormNum {3}
+            FlamePike {
+                FormNum {3} 
                 Cost {15 * sF}
                 Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
                 Effect {None}
@@ -26,49 +26,49 @@ Types of output {
             }
         }
         tier 2 {
-            Fireball {
+            FireBall {
                 FormNum {10}
                 Cost {50 * sF}
-                Dmg {Char(mP) ^ 4 + Cost * Char(elPro) ^ 2}
+                Dmg {Char(mP) / 4 + Cost * Char(elPro)/ 2}
                 Effect {Chance to set target on fire(fire cant spread from target)}(Effect chance 15%)DOT{}
                 Aoe {1.0}
             }
-            Firebolt {
+            FireBolt {
                 FormNum {11}
                 Cost {75 * sF}
-                Dmg{Char(mP) ^ 4 + Cost * Char(elPro) ^ 2}
+                Dmg{Char(mP) / 4 + Cost * Char(elPro) / 2}
                 Effect {Chance to set target on fire(fire cant spread from target)}(Effect chance 15%)DOT{}
                 Aoe {1.5}
             }
         }
         tier 3 {
-            Fireburst {
+            FireBurst {
                 FormNum {15}
                 Cost {150 * sF}
-                Dmg {Char(mP) ^ 3 + Cost * Char(elPro) ^ 2}
+                Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
                 Effect {Chance to set target on fire(fire cant spread from target)}(Effect chance 15%)DOT{}
                 Aoe {2.0}
             }
-            Fireorb {
+            FireOrb {
                 FormNum {17}
                 Cost {200 * sF}
-                Dmg {Char(mP) ^ 3 + Cost * Char(elPro) ^ 2}
+                Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
                 Effect {Chance to set target ablaze (blaze can spread from target)}(Effect chance 25%) DOT{}
                 Aoe {2.0}
             }
         }
         tier 4 {
-            Flashfire {
+            FlashFire {
                 FormNum {19}
                 Cost {500 * sF}
-                Dmg {Char(mP) ^ 3 + Cost * Char(elPro) ^ 2}
+                Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
                 Effect {Chance to set target ablaze (blaze can spread from target)}(Effect chance 5%) DOT{}
                 Aoe {2.5}
             }
-            Flamepillor {
+            FlamePillor {
                 FormNum {22}
                 Cost {750 *sF}
-                Dmg {Char(mP) ^ 3 + Cost * Char(elPro) ^ 2}
+                Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
                 Effect {Chance to set target ablaze (blaze can spread from target)}(Effect chance 55%) DOT{}
                 Aoe {5.0}
             }
@@ -76,41 +76,77 @@ Types of output {
             Flare {
                 FormNum {999}
                 Cost {9000 * sF}
-                Dmg {Char(mP) ^ 2 + Cost * Char(elPro) ^ 2}
+                Dmg {Char(mP) / 2 + Cost * Char(elPro) / 2}
                 Effect {Chance to afflict target with infernus (infernus will spread from target)}(Effect chance 100%) DOT{}
                 Aoe {YES}
             }
         }
     }    
    Contact based {
-        Flamecoat {
-            
+        FlameCoat {
+            FormNum {3}
+            Cost {15 * sF}
+            Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
+            Effect {Coats weapon in flame}
+            Aoe {NO}
         }
-        Firecoat {
-
+        FireCoat {
+            FormNum {5}
+            Cost {50 * sF}
+            Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
+            Effect {Coats weapon in fire}
+            Aoe {NO}
         }
-        Flameenchant {
-
+        FlameEnchant {
+            FormNum {7}
+            Cost {125 * sF}
+            Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
+            Effect {enchants equipment with an intense flame}
+            Aoe {NO}
         }
-        Fireenchant {
-
+        FireEnchant {
+            FormNum {10}
+            Cost {255 * sF}
+            Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
+            Effect {enchants equipment with an intense fire that burns true}
+            Aoe {NO}
         }
-        Flarecoat {
-
+        FlareCoat {
+            FormNum {100}
+            Cost {765 * sF}
+            Dmg {Char(mP) / 2 + Cost * Char(elPro) / 2}
+            Effect {caots equipment in a solor flare}
+            Aoe {NO}
         }
         FlareBase {
-
+            FormNum {999}
+            Cost {3000 * sF}
+            Dmg {Char(mP) / 2 + Cost * Char(elPro) / 2}
+            Effect {the base of the users equipment is turned into a pure exothermic energy}
+            Aoe {15.0}
         }
    }
     Form based {
         Flamebody {
-
+            FormNum {3}
+            Cost {250 * sF}
+            Dmg {0}
+            Effect {Turns the users body into a pure flame like substace making the user immune to physical attacks}
+            Aoe {NO}
         }
         Passiondrive {
-
+            FormNum {3}
+            Cost {250 * sF}
+            Dmg {0}
+            Effect {Using the power of fire the usser sets their passion ablaze increasing their stats}
+            Aoe {NO}
         }
         Plasmabase {
-
+            FormNum {3}
+            Cost {1500 *sF}
+            Dmg {0}
+            Effect {Turns the users being into pure plasma and magicules having unpredictable responses}
+            Aoe {NO}
         }
    }
 }
