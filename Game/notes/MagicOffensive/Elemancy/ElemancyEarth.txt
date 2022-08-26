@@ -21,6 +21,7 @@ Types of output {
                     Dmg {Char(mP) / 5 + Cost * Char(elPro) / 2 / ProjectileNum}
                     Effect {None}
                     Aoe {Spell.Projectile.Size}
+                    Description {Hurl stone spikes at the target}
                 }
                 (StoneBall){
                     Form.Num {10}
@@ -29,16 +30,21 @@ Types of output {
                     Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2 } {Spell.Dmg / Spell.ProjectileNum}
                     Effect {None}
                     Aoe {Spell.Projectile.Size}
+                    Description {Form a boulder that shatters into smaller pieces on death}
                 }
                 (StoneHammer){
                     Form.Num {10}
                     Cost {Spell.Form * 15}
                     Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
-                    Effect {Form a hammer made of stone to wield as a weapon}
+                    Effect {None}
                     Aoe {1.50}
+                    Description {Form a hammer made of stone to wield as a weapon}
                 }
                 (StoneFeld){
-                    
+                    Form.Num {10}
+                    Cost {Spell.Form * 15}
+                    Dmg {Char{mP} /4 + Cost * Char(eLPro) / 2}
+                    Effect {}
                 }
             }
 

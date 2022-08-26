@@ -18,6 +18,7 @@ Types of output {
                 Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
                 Effect {None}
                 Aoe {0.5}
+                Description {Summons a meek flame on the target}
             }
             FlamePike {
                 Form.Num {3} 
@@ -25,6 +26,7 @@ Types of output {
                 Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
                 Effect {None}
                 Aoe {0.5}
+                Description {Hurl a condensed meek flame like pike at the target}
             }
         }
         tier 2 {
@@ -34,6 +36,7 @@ Types of output {
                 Dmg {Char(mP) / 4 + Cost * Char(elPro)/ 2}
                 Effect {Chance to set target on fire(fire cant spread from target)}(Effect chance 15%)DOT{}
                 Aoe {1.0}
+                Description {Hurl a ball of fire at the target}
             }
             FireBolt {
                 Form.Num {11}
@@ -41,15 +44,18 @@ Types of output {
                 Dmg{Char(mP) / 4 + Cost * Char(elPro) / 2}
                 Effect {Chance to set target on fire(fire cant spread from target)}(Effect chance 15%)DOT{}
                 Aoe {1.5}
+                Description {Throw a condensed fire like pike at the target}
             }
         }
         tier 3 {
             FireBurst {
                 Form.Num {15}
                 Cost {150 * Spell.Form}
-                Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
+                Projectile.Num {10 * Spell.Form}
+                Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2} {Spell.Dmg / 15}
                 Effect {Chance to set target on fire(fire cant spread from target)}(Effect chance 15%)DOT{}
                 Aoe {2.0}
+                Description {Summons a slow moving ball of fire that burst into rapidly moving spits that home in onto the target}
             }
             FireOrb {
                 Form.Num {17}
@@ -57,6 +63,7 @@ Types of output {
                 Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
                 Effect {Chance to set target ablaze (blaze can spread from target)}(Effect chance 25%) DOT{}
                 Aoe {2.0}
+                Description {Summons a large ball of molten fire that leaves behind a puddle of lava upon death}
             }
         }
         tier 4 {
@@ -66,6 +73,7 @@ Types of output {
                 Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
                 Effect {Chance to set target ablaze (blaze can spread from target)}(Effect chance 5%) DOT{}
                 Aoe {2.5}
+                Description {}
             }
             FlamePillor {
                 Form.Num {22}
