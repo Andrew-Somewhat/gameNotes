@@ -1,10 +1,54 @@
 Nature of Earth {
-    
+    Earts nature is that of minerals.
+    Earth base is solid.
+    Earth as an element encompasses minerals and other solid inorganics.
+    [
+        Earth is an odd elemancy, since the element encompasses such a broad range of matter, 
+        it is hard to fully identify the conditions needed to be met for earth to manifest,
+        what is known is that the periodic elements need to be present for a specific mineral to manifest
+        however magicules can be used as a substatute for some if not all periodic elements
+    ]
 }
 Types of output {
     Projectile based {
         tier 1 {
+            StoneForm {
+                [StoneForm requires Earth based materials nearby to be used]
+                (StoneSpike){
+                    Form.Num {10}
+                    Cost {Spell.Form / 2 * 20}
+                    Projectile.Num {1 * Spell.Form}
+                    Dmg {Char(mP) / 5 + Cost * Char(elPro) / 2 / ProjectileNum}
+                    Effect {None}
+                    Aoe {Spell.Projectile.Size}
+                }
+                (StoneBall){
+                    Form.Num {10}
+                    Cost {Spell.Form * 15}
+                    Projectile.Num {1} {4 * Spell.Form}
+                    Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2 } {Spell.Dmg / Spell.ProjectileNum}
+                    Effect {None}
+                    Aoe {Spell.Projectile.Size}
+                }
+                (StoneHammer){
+                    Form.Num {10}
+                    Cost {Spell.Form * 15}
+                    Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
+                    Effect {Form a hammer made of stone to wield as a weapon}
+                    Aoe {1.50}
+                }
+                (StoneFeld){
+                    
+                }
+            }
 
+            StoneCreation {
+                [StoneCreation requires users mP to be casted]
+                (SummonStoneSpike)
+                (SummonStoneBall)
+                (SummonStoneHammer)
+                (SummonStoneFeld)
+            }
         }
         tier 2 {
 

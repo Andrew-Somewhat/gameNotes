@@ -1,25 +1,27 @@
 Nature of fire {
-Fires nature is that of a heavyly weakend star
-Fires base is Plasma
-Fire is a source of heat and can provide light
-Fire needs three condition to be meet in order to form 
-[Fire needs a source of heat - Fire needs a source of fual - Fire needs a source of oxygen] 
-magicules can be used as a substatute for eather one or all of these condition
-The colour of the flame is determinend by the chemicals within it  or if ones physical body is atunned with fire than te flames colour with mimic the aura of the user
+    Fires nature is that of a heavyly weakend star
+    Fires base is Plasma
+    Fire is a source of heat and can provide light
+    Fire needs three condition to be meet in order to form 
+    [
+        Fire needs a source of heat - Fire needs a source of fual - Fire needs a source of oxygen 
+        magicules can be used as a substatute for eather one or all of these condition
+        The colour of the flame is determinend by the chemicals within it  or if ones physical body is atunned with fire than te flames colour with mimic the aura of the user
+    ]
 }
 Types of output {
        Projectile based {
         tier 1 {
             Flame {
-                FormNum {5}
-                Cost {10 * sF}
+                Form.Num {5}
+                Cost {10 * Spell.Form}
                 Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
                 Effect {None}
                 Aoe {0.5}
             }
             FlamePike {
-                FormNum {3} 
-                Cost {15 * sF}
+                Form.Num {3} 
+                Cost {15 * Spell.Form}
                 Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
                 Effect {None}
                 Aoe {0.5}
@@ -27,15 +29,15 @@ Types of output {
         }
         tier 2 {
             FireBall {
-                FormNum {10}
-                Cost {50 * sF}
+                Form.Num {10}
+                Cost {50 * Spell.Form}
                 Dmg {Char(mP) / 4 + Cost * Char(elPro)/ 2}
                 Effect {Chance to set target on fire(fire cant spread from target)}(Effect chance 15%)DOT{}
                 Aoe {1.0}
             }
             FireBolt {
-                FormNum {11}
-                Cost {75 * sF}
+                Form.Num {11}
+                Cost {75 * Spell.Form}
                 Dmg{Char(mP) / 4 + Cost * Char(elPro) / 2}
                 Effect {Chance to set target on fire(fire cant spread from target)}(Effect chance 15%)DOT{}
                 Aoe {1.5}
@@ -43,15 +45,15 @@ Types of output {
         }
         tier 3 {
             FireBurst {
-                FormNum {15}
-                Cost {150 * sF}
+                Form.Num {15}
+                Cost {150 * Spell.Form}
                 Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
                 Effect {Chance to set target on fire(fire cant spread from target)}(Effect chance 15%)DOT{}
                 Aoe {2.0}
             }
             FireOrb {
-                FormNum {17}
-                Cost {200 * sF}
+                Form.Num {17}
+                Cost {200 * Spell.Form}
                 Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
                 Effect {Chance to set target ablaze (blaze can spread from target)}(Effect chance 25%) DOT{}
                 Aoe {2.0}
@@ -59,23 +61,23 @@ Types of output {
         }
         tier 4 {
             FlashFire {
-                FormNum {19}
-                Cost {500 * sF}
+                Form.Num {19}
+                Cost {500 * Spell.Form}
                 Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
                 Effect {Chance to set target ablaze (blaze can spread from target)}(Effect chance 5%) DOT{}
                 Aoe {2.5}
             }
             FlamePillor {
-                FormNum {22}
-                Cost {750 *sF}
+                Form.Num {22}
+                Cost {750 * Spell.Form}
                 Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
                 Effect {Chance to set target ablaze (blaze can spread from target)}(Effect chance 55%) DOT{}
                 Aoe {5.0}
             }
         tier 5 {
             Flare {
-                FormNum {999}
-                Cost {9000 * sF}
+                Form.Num {999}
+                Cost {9000 * Spell.Form}
                 Dmg {Char(mP) / 2 + Cost * Char(elPro) / 2}
                 Effect {Chance to afflict target with infernus (infernus will spread from target)}(Effect chance 100%) DOT{}
                 Aoe {YES}
@@ -84,43 +86,43 @@ Types of output {
     }    
    Contact based {
         FlameCoat {
-            FormNum {3}
-            Cost {15 * sF}
+            Form.Num {3}
+            Cost {15 * Spell.Form}
             Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
             Effect {Coats weapon in flame}
             Aoe {NO}
         }
         FireCoat {
-            FormNum {5}
-            Cost {50 * sF}
+            Form.Num {5}
+            Cost {50 * Spell.Form}
             Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
             Effect {Coats weapon in fire}
             Aoe {NO}
         }
         FlameEnchant {
-            FormNum {7}
-            Cost {125 * sF}
+            Form.Num {7}
+            Cost {125 * Spell.Form}
             Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
             Effect {enchants equipment with an intense flame}
             Aoe {NO}
         }
         FireEnchant {
-            FormNum {10}
-            Cost {255 * sF}
+            Form.Num {10}
+            Cost {255 * Spell.Form}
             Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
             Effect {enchants equipment with an intense fire that burns true}
             Aoe {NO}
         }
         FlareCoat {
-            FormNum {100}
-            Cost {765 * sF}
+            Form.Num {100}
+            Cost {765 * Spell.Form}
             Dmg {Char(mP) / 2 + Cost * Char(elPro) / 2}
             Effect {caots equipment in a solor flare}
             Aoe {NO}
         }
         FlareBase {
-            FormNum {999}
-            Cost {3000 * sF}
+            Form.Num {999}
+            Cost {3000 * Spell.Form}
             Dmg {Char(mP) / 2 + Cost * Char(elPro) / 2}
             Effect {the base of the users equipment is turned into a pure exothermic energy}
             Aoe {15.0}
@@ -128,22 +130,22 @@ Types of output {
    }
     Form based {
         Flamebody {
-            FormNum {3}
-            Cost {250 * sF}
+            Form.Num {3}
+            Cost {250 * Spell.Form}
             Dmg {0}
             Effect {Turns the users body into a pure flame like substace making the user immune to physical attacks}
             Aoe {NO}
         }
         Passiondrive {
-            FormNum {3}
-            Cost {250 * sF}
+            Form.Num {3}
+            Cost {250 * Spell.Form}
             Dmg {0}
             Effect {Using the power of fire the usser sets their passion ablaze increasing their stats}
             Aoe {NO}
         }
         Plasmabase {
-            FormNum {3}
-            Cost {1500 *sF}
+            Form.Num {3}
+            Cost {1500 *Spell.Form}
             Dmg {0}
             Effect {Turns the users being into pure plasma and magicules having unpredictable responses}
             Aoe {NO}
