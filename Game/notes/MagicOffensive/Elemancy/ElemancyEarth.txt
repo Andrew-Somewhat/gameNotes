@@ -12,7 +12,210 @@ Nature of Earth {
 Types of output {
     Projectile based {
         tier 1 {
-            StoneForm {
+            StoneCreation {
+                [StoneCreation requires users mP to be casted]
+                (SummonStoneSpike){
+                    Form.Num {10}
+                    Cost {Spell.Form / 2 * 20}
+                    Projectile.Num {1 * Spell.Form}
+                    Dmg {Char(mP) / 5 + Cost * Char(elPro) / 2 / ProjectileNum}
+                    Effect {None}
+                    Aoe {Spell.Projectile.Size}
+                    Description {Summon and hurl stone spikes at the target}
+                }
+                (SummonStoneBall){
+                    Form.Num {10}
+                    Cost {Spell.Form * 15}
+                    Projectile.Num {1} {4 * Spell.Form}
+                    Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2 } {Spell.Dmg / Spell.ProjectileNum}
+                    Effect {None}
+                    Aoe {Spell.Projectile.Size}
+                    Description {Summon a boulder that shatters into smaller pieces on death}
+                }
+                (SummonStoneHammer){
+                    Form.Num {10}
+                    Cost {Spell.Form * 15}
+                    Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
+                    Effect {Spell.Projectile.Size}
+                    Aoe {1.50}
+                    Description {Summon a hammer made of stone to wield as a weapon}
+                }
+                (SummonStoneFeld){
+                    Form.Num {10}
+                    Cost {Spell.Form * 15}
+                    Dmg {Char(mP) /4 + Cost * Char(eLPro) / 2}
+                    Effect {None}
+                    Aoe {3.0}
+                    Description {Summon a field of stone within a large radius then explodes}
+                }
+            }
+        }
+        tier 2 {
+            IronCreation {
+                (SummonIronDagger){
+                    Form.Num {15}
+                    Cost {Spell.Form * 150}
+                    Projectile.Num {5 * Spell.Form}
+                    Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
+                    Effect {Summons a wieldable iron weapon}
+                    Aoe {Spell.Projectile.Size}
+                    Description {Summon daggers of iron to be wielded as weapons}
+                }
+                (SummonIronSword){
+                    Form.Num {15}
+                    Cost {Spell.Form * 150}
+                    Projectile.Num {1 * Spell.Form}
+                    Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
+                    Effect {Summons a wieldable iron weapon}
+                    Aoe {Spell.Projectile.Size}
+                    Description {Summon swords of iron to be wielded as weapons}
+                }
+                (SummonIronSpear){
+                    Form.Num {15}
+                    Cost {Spell.Form * 150}
+                    Projectile.Num {1 * Spell.Form}
+                    Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
+                    Effect {Summons a wieldable iron weapon}
+                    Aoe {Spell.Projectile.Size}
+                    Description {Summon Spears of iron to be wielded as weapons}
+                }
+                (SummonIronAxe){
+                    Form.Num {15}
+                    Cost {Spell.Form * 150}
+                    Projectile.Num {1 * Spell.Form}
+                    Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
+                    Effect {Summons a wieldable iron weapon}
+                    Aoe {Spell.Projectile.Size}
+                    Description {Summon Axes of iron to be wielded as weapons}
+                }
+            }
+        }
+        tier 3 {
+            CorundumCreation {
+                (SummonCorundumKukri){
+                    Form.Num {30}
+                    Cost {Spell.Form * 300}
+                    Projectile.Num {3}
+                    Dmg {}
+                    Effect {}
+                    Aoe {Spell.Projectile.Size}
+                    Description {}
+                }
+                (SummonCorundumGuandao){
+                    Form.Num {30}
+                    Cost {Spell.Form * 300}
+                    Projectile.Num {2}
+                    Dmg {}
+                    Effect {}
+                    Aoe {Spell.Projectile.Size}
+                    Description {}
+                }
+                (SummonCorundumMace){
+                    Form.Num {30}
+                    Cost {Spell.Form * 300}
+                    Projectile.Num {1}
+                    Dmg {}
+                    Effect {}
+                    Aoe {Spell.Projectile.Size}
+                    Description {}
+                }
+                (SummonCorundumGreatsword){
+                    Form.Num {30}
+                    Cost {Spell.Form * 300}
+                    Projectile.Num {(if Spell(Form.Num) {Form.Num >= 1 && <= 15 }) retun 1 else return 2}
+                    Dmg {}
+                    Effect {}
+                    Aoe {Spell.Projectile.Size}
+                    Description {}
+                }
+            }
+        }
+        tier 4 {
+            FeoelsCreation {
+                (SummonFeoelsKatana){
+                    Form.Num {75}
+                    Cost {Spell.Form * 750}
+                    Projectile.Num {}
+                    Dmg {}
+                    Effect {}
+                    Aoe {Spell.Projectile.Size}
+                    Description {}
+                }
+                (SummonFeoelsScythe){
+                    Form.Num {75}
+                    Cost {Spell.Form * 750}
+                    Projectile.Num {}
+                    Dmg {}
+                    Effect {}
+                    Aoe {Spell.Projectile.Size}
+                    Description {}
+                }
+                (SummonFeoelsChain){
+                    Form.Num {75}
+                    Cost {Spell.Form * 750}
+                    Projectile.Num {}
+                    Dmg {}
+                    Effect {}
+                    Aoe {Spell.Projectile.Size}
+                    Description {}
+                }
+                (SummonFeoelsDisc){
+                    Form.Num {75}
+                    Cost {Spell.Form * 750}
+                    Projectile.Num {}
+                    Dmg {}
+                    Effect {}
+                    Aoe {Spell.Projectile.Size}
+                    Description {}
+                }
+            }
+        }
+        tier 5 {
+            RenownedCreation {
+                (Excalibur){
+                    Form.Num {999}
+                    Cost {Spell.Form * 9000}
+                    Dmg {}
+                    Effect {}
+                    Aoe {Spell.Projectile.Size}
+                    Description {}
+                }
+                (FragmentedAbyss){
+                    Form.Num {999}
+                    Cost {Spell.Form * 9000}
+                    Dmg {}
+                    Effect {}
+                    Aoe {Spell.Projectile.Size}
+                    Description {}
+                }
+                (Exoelouosus){
+                    Form.Num {999}
+                    Cost {Spell.Form * 9000}
+                    Dmg {}
+                    Effect {}
+                    Aoe {Spell.Projectile.Size}
+                    Description {}
+                }
+                (Daelithsol){
+                    Form.Num {999}
+                    Cost {Spell.Form * 9000}
+                    Dmg {}
+                    Effect {}
+                    Aoe {Spell.Projectile.Size}
+                    Description {}
+                }
+            }
+        }
+    }
+    Contact based {
+
+    }
+    Form based {
+
+    }
+}
+///////
+/////// StoneForm {
                 [StoneForm requires Earth based materials nearby to be used]
                 (StoneSpike){
                     Form.Num {10}
@@ -44,35 +247,8 @@ Types of output {
                     Form.Num {10}
                     Cost {Spell.Form * 15}
                     Dmg {Char{mP} /4 + Cost * Char(eLPro) / 2}
-                    Effect {}
+                    Effect {None}
+                    Aoe {3.0}
+                    Description {Form a field of stone within a large radius then explodes}
                 }
             }
-
-            StoneCreation {
-                [StoneCreation requires users mP to be casted]
-                (SummonStoneSpike)
-                (SummonStoneBall)
-                (SummonStoneHammer)
-                (SummonStoneFeld)
-            }
-        }
-        tier 2 {
-
-        }
-        tier 3 {
-
-        }
-        tier 4 {
-
-        }
-        tier 5 {
-
-        }
-    }
-    Contact based {
-
-    }
-    Form based {
-
-    }
-}
