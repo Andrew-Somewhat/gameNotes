@@ -1,22 +1,107 @@
 Nature of Ice {
-
+    Ices nature is endothermic energy
+    Ices base is solid close to liqued
+    Ice is a source of cold and is frozen liqued
+    [
+        Ice needs liqued to freeze and near 0c temps to freeze
+        Magicules can be used as a substatute for eather or both of these conditions
+        Useing the natural water particules in the air as the fuel for ice is most common cating method for ice elemancy
+    ]
 }
 Types of output {
     Projectile based {
         tier 1 {
-
+            FrostHold {
+                Form.Num {10}
+                Cost {Spell.Form * 15}
+                Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
+                Effect {lowers target and target areas temperature}
+                Aoe {1.5}
+                Description {Wrap the target in near freezing temperatures}
+            }
+            FrostBite {
+                Form.Num {10}
+                Cost {Spell.Form * 15}
+                Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
+                Effect {lowers target and target areas temperature}
+                Aoe {1.0}
+                Description {Lunge near freezing temperatures at the target}
+            }
         }
         tier 2 {
-
+            SnowySlap {
+                Form.Num {15}
+                Cost {Spell.Form * 150}
+                Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
+                Effect {lowers target and target areas temperature}
+                Aoe {2.4}
+                Description {Use snow to slap the target}
+            }
+            SnowyDrop {
+                Form.Num {15}
+                Cost {Spell.Form * 150}
+                Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
+                Effect {lowers target and target areas temperature}
+                Aoe {2.7}
+                Description {Drop a ball of now on the target}
+            }
         }
         tier 3 {
-
+            IceArrow {
+                Form.Num {30}
+                Cost {Spell.Form}
+                Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
+                Effect {lowers target and target areas temperature}
+                Aoe {1.3}
+                Description {Form an arrow made of ice that sticks the target that damages on impact and explodes moments latter}
+            }
+            IceClutch {
+                Form.Num {30}
+                Cost {Spell.Form}
+                Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
+                Effect {lowers target and target areas temperature}
+                Aoe {3.0}
+                Description {Encase the target in ice that shatters moments after}
+            }
         }
         tier 4 {
-
+            Frigid {
+                Form.Num {75}
+                Cost {Spell.Form}
+                Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
+                Effect {lowers target and target areas temperature}
+                Aoe {}
+                Description {}
+            }
+            Cold {
+                Form.Num {75}
+                Cost {Spell.Form}
+                Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
+                Effect {lowers target and target areas temperature}
+                Aoe {}
+                Description {}
+            }
         }
         tier 5 {
-            
+            Zero {
+                Form.Num {999}
+                Cost {Spell.Form}
+                Dmg {}
+                Effect {lowers target and target areas temperature}
+                Aoe {}
+                Description {}
+            }
+        }
+        tier 6 {
+            FroreMist {
+                Form.Num {1}
+                Cost {Spell.Form}
+                Dmg {}
+                Effect {lowers target and target areas temperature}
+                Aoe {}
+                Required {OriginReality}
+                Description {}
+            }
         }
     }
     Contact based {

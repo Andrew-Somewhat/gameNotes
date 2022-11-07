@@ -95,38 +95,38 @@ Types of output {
                 (SummonCorundumKukri){
                     Form.Num {30}
                     Cost {Spell.Form * 300}
-                    Projectile.Num {3}
-                    Dmg {}
-                    Effect {}
+                    Projectile.Num {3 * Spell.Form}
+                    Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
+                    Effect {Summons a wieldable corundum weapon}
                     Aoe {Spell.Projectile.Size}
-                    Description {}
+                    Description {Summon kukris of corundum to be wielded as weapons}
                 }
                 (SummonCorundumGuandao){
                     Form.Num {30}
                     Cost {Spell.Form * 300}
-                    Projectile.Num {2}
-                    Dmg {}
-                    Effect {}
+                    Projectile.Num {2 * Spell.Form}
+                    Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
+                    Effect {Summons a wieldable corundum weapon}
                     Aoe {Spell.Projectile.Size}
-                    Description {}
+                    Description {Summon guandaos of corundum to be wielded as weapons}
                 }
                 (SummonCorundumMace){
                     Form.Num {30}
                     Cost {Spell.Form * 300}
-                    Projectile.Num {1}
-                    Dmg {}
-                    Effect {}
+                    Projectile.Num {1 * Spell.Form}
+                    Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
+                    Effect {Summons a wieldable corundum weapon}
                     Aoe {Spell.Projectile.Size}
-                    Description {}
+                    Description {Summon maces of corundum to be wielded as weapons}
                 }
                 (SummonCorundumGreatsword){
                     Form.Num {30}
                     Cost {Spell.Form * 300}
                     Projectile.Num {(if Spell(Form.Num) {Form.Num >= 1 && <= 15 }) retun 1 else return 2}
-                    Dmg {}
-                    Effect {}
+                    Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
+                    Effect {Summons a wieldable corundum weapon}
                     Aoe {Spell.Projectile.Size}
-                    Description {}
+                    Description {Summons a great sword of corundum to be wielded as weapons}
                 }
             }
         }
@@ -135,38 +135,38 @@ Types of output {
                 (SummonFeoelsKatana){
                     Form.Num {75}
                     Cost {Spell.Form * 750}
-                    Projectile.Num {}
-                    Dmg {}
-                    Effect {}
+                    Projectile.Num {1 * Spell.Form}
+                    Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
+                    Effect {Summon a wieldable feoels weapon}
                     Aoe {Spell.Projectile.Size}
-                    Description {}
+                    Description {Summons a  of feoels to be wielded as weapons}
                 }
                 (SummonFeoelsScythe){
                     Form.Num {75}
                     Cost {Spell.Form * 750}
-                    Projectile.Num {}
-                    Dmg {}
-                    Effect {}
+                    Projectile.Num {1 * Spell.Form}
+                    Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
+                    Effect {Summon a wieldable feoels weapon}
                     Aoe {Spell.Projectile.Size}
-                    Description {}
+                    Description {Summons a  of feoels to be wielded as weapons}
                 }
                 (SummonFeoelsChain){
                     Form.Num {75}
                     Cost {Spell.Form * 750}
-                    Projectile.Num {}
-                    Dmg {}
-                    Effect {}
+                    Projectile.Num {100 * Spell.Form}
+                    Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
+                    Effect {Summon a wieldable feoels weapon}
                     Aoe {Spell.Projectile.Size}
-                    Description {}
+                    Description {Summons a  of feoels to be wielded as weapons}
                 }
                 (SummonFeoelsDisc){
                     Form.Num {75}
                     Cost {Spell.Form * 750}
-                    Projectile.Num {}
-                    Dmg {}
-                    Effect {}
+                    Projectile.Num {55 * Spell.Form}
+                    Dmg {Char(mP) / 3 + Cost * Char(elPro) / 2}
+                    Effect {Summon a wieldable feoels weapon}
                     Aoe {Spell.Projectile.Size}
-                    Description {}
+                    Description {Summons a  of feoels to be wielded as weapons}
                 }
             }
         }
@@ -175,34 +175,34 @@ Types of output {
                 (Excalibur){
                     Form.Num {999}
                     Cost {Spell.Form * 9000}
-                    Dmg {}
-                    Effect {}
+                    Dmg {Char(mP) / 2 + Cost * Char(elPro) / 2}
+                    Effect {Summons the excalibur to be wielded as a weapon}
                     Aoe {Spell.Projectile.Size}
-                    Description {}
+                    Description {Summon the blade of legend the excalibur to wield as a weapon}
                 }
                 (FragmentedAbyss){
                     Form.Num {999}
                     Cost {Spell.Form * 9000}
-                    Dmg {}
-                    Effect {}
+                    Dmg {Char(mP) / 2 + Cost * Char(elPro) / 2}
+                    Effect {Summons the fragmented abyss as a weapon}
                     Aoe {Spell.Projectile.Size}
-                    Description {}
+                    Description {Summons the hilt of the katana of legend the abyssal severance to wield as a weapon}
                 }
                 (Exoelouosus){
                     Form.Num {999}
                     Cost {Spell.Form * 9000}
-                    Dmg {}
-                    Effect {}
+                    Dmg {Char(mP) / 2 + Cost * Char(elPro) / 2}
+                    Effect {Summons the exeolouosus armament to wield}
                     Aoe {Spell.Projectile.Size}
-                    Description {}
+                    Description {Summons the armament of legend the exeolouosus and use its power as your own}
                 }
                 (Daelithsol){
                     Form.Num {999}
                     Cost {Spell.Form * 9000}
-                    Dmg {}
-                    Effect {}
+                    Dmg {Char(mP) / 2 + Cost * Char(elPro) / 2}
+                    Effect {Summons the dealithsol as weapon}
                     Aoe {Spell.Projectile.Size}
-                    Description {}
+                    Description {Summons the scythe of legend the dealithsol to wield as a weapon}
                 }
             }
         }
@@ -214,41 +214,3 @@ Types of output {
 
     }
 }
-///////
-/////// StoneForm {
-                [StoneForm requires Earth based materials nearby to be used]
-                (StoneSpike){
-                    Form.Num {10}
-                    Cost {Spell.Form / 2 * 20}
-                    Projectile.Num {1 * Spell.Form}
-                    Dmg {Char(mP) / 5 + Cost * Char(elPro) / 2 / ProjectileNum}
-                    Effect {None}
-                    Aoe {Spell.Projectile.Size}
-                    Description {Hurl stone spikes at the target}
-                }
-                (StoneBall){
-                    Form.Num {10}
-                    Cost {Spell.Form * 15}
-                    Projectile.Num {1} {4 * Spell.Form}
-                    Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2 } {Spell.Dmg / Spell.ProjectileNum}
-                    Effect {None}
-                    Aoe {Spell.Projectile.Size}
-                    Description {Form a boulder that shatters into smaller pieces on death}
-                }
-                (StoneHammer){
-                    Form.Num {10}
-                    Cost {Spell.Form * 15}
-                    Dmg {Char(mP) / 4 + Cost * Char(elPro) / 2}
-                    Effect {None}
-                    Aoe {1.50}
-                    Description {Form a hammer made of stone to wield as a weapon}
-                }
-                (StoneFeld){
-                    Form.Num {10}
-                    Cost {Spell.Form * 15}
-                    Dmg {Char{mP} /4 + Cost * Char(eLPro) / 2}
-                    Effect {None}
-                    Aoe {3.0}
-                    Description {Form a field of stone within a large radius then explodes}
-                }
-            }
